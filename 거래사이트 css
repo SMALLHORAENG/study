@@ -62,3 +62,9 @@
 .rightsidebar{
 
 }
+
+.content{
+	display: block;
+	object-fit:cover;
+	img opacity: 0.2;
+}
