@@ -63,11 +63,11 @@
 				</h1>
 			</nav>
 		</div>
-		<div class="content">
+		<div>
 			<a href="https://www.jejusi.go.kr/index.ac" target="_blank">
-				<img src="https://www.jeju.go.kr/media/atJ"></a>
+				<img src="https://www.jeju.go.kr/media/atJ" class="content"></a>
 			<a href="https://www.jejusi.go.kr/index.ac" target="_blank">
-				<img src="https://www.jeju.go.kr/media/atJ"></a>
+				<img src="https://www.jeju.go.kr/media/atJ" class="content"></a>
 		</div>
 		<div class="rightsidebar"></div>
 	</body>
