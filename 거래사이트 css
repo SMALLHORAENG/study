@@ -64,7 +64,13 @@
 }
 
 .content{
-	display: block;
-	object-fit:cover;
-	img opacity: 0.2;
+    display: inline-block;
+    position: relative;
+    left: 40%; 
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    max-width: 30%;
+    max-height: 30%;
 }
+
