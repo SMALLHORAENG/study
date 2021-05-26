@@ -80,3 +80,70 @@
 
 <!-- http://www.guidecrops.com/index.htm -->
 <!-- 나중에 만들예정 -->
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+    <div class="header">
+    <img src="http://www.guidecrops.com/images/top_logo.gif">
+    <div class="topmenu">
+    <a href="index.html" style="background-color: gray; border-radius: 4px;"
+    >Home</a>
+    <a href="index.html" style="background-color: gray; border-radius: 4px;"
+    >My Room</a>
+    <a href="index.html" style="background-color: gray; border-radius: 4px;"
+    >Site map</a>
+    <a href="index.html" style="background-color: gray; border-radius: 4px;"
+    >E-Mail</a>
+
+    </div>  <!--이부분 조금 더 연구해보고 수정해보기-->
+</div>
+
+    <title>Trade Site Copy</title>
+</head>
+
+<body>
+    <div class="info">
+<img src="https://img.hankyung.com/photo/202101/57234_109862_424.jpg" width="100%" height="200px">
+    <ul class="infomenu">    
+        <li><a href="index.html">[공지] 거래 1</a></li>
+        <li><a href="index.html">[공지] 거래 2</a></li>
+        <li><a href="index.html">[공지] 거래 3</a></li>
+        <li><a href="index.html">[공지] 거래 4</a></li>
+        <li><a href="index.html">[공지] 거래 5</a></li>
+    </ul>
+    </div> <!--공부 더 하기-->
+
+    <div class="search">
+        <form class="ib">
+            <img src="https://imyeonn.github.io/assets/images/post/001/30_00title.png" width="20px" height="20px">
+            <input type="search">
+            <button>검색</button>
+        </form>
+        <ul class="li" style="list-style-type: none;">
+            <li><a href="index.html">전체상품</a></li>
+            <li><a href="index.html">팝니다 등록</a></li>
+            <li><a href="index.html">삽니다 등록</a></li>
+            <li><a href="index.html">삽니다 리스트</a></li>
+            <li><a href="index.html">우리동네소개</a></li>
+            <li><a href="index.html">묻고답하기</a</li>
+            </ul>
+    </div>
+    
+</body>
+</html>
+<!-- http://www.guidecrops.com/index.htm  -->
+
+
+
