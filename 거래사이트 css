@@ -102,3 +102,53 @@
 }
 
 //나중에 만들예정
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header{
+    top: 0;
+    left: 0;
+}
+
+.topmenu{
+    position: relative;
+    text-align: right;
+    top: -15px;
+}
+
+.info{
+    margin: 0 0;
+    text-align: right;
+    width: 100%;
+    position: relative;
+    bottom:10px
+}
+.infomenu{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    line-height: 40px;
+}
+
+.ib{
+    display: inline-block;
+}
+
+.li{
+    display: flex;
+}
+.search{
+
+}
+
+
