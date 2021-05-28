@@ -107,7 +107,7 @@
     <a href="index.html" style="background-color: gray; border-radius: 4px;"
     >E-Mail</a>
 
-    </div>  <!--이부분 조금 더 연구해보고 수정해보기-->
+    </div>  <!--div 속 div-->
 </div>
 
     <title>Trade Site Copy</title>
@@ -123,24 +123,70 @@
         <li><a href="index.html">[공지] 거래 4</a></li>
         <li><a href="index.html">[공지] 거래 5</a></li>
     </ul>
-    </div> <!--공부 더 하기-->
+    </div> <!--포지션을 이용한 배치-->
 
-    <div class="search">
-        <form class="ib">
+    <div class="search" >
             <img src="https://imyeonn.github.io/assets/images/post/001/30_00title.png" width="20px" height="20px">
-            <input type="search">
-            <button>검색</button>
-        </form>
-        <ul class="li" style="list-style-type: none;">
-            <li><a href="index.html">전체상품</a></li>
-            <li><a href="index.html">팝니다 등록</a></li>
-            <li><a href="index.html">삽니다 등록</a></li>
-            <li><a href="index.html">삽니다 리스트</a></li>
-            <li><a href="index.html">우리동네소개</a></li>
-            <li><a href="index.html">묻고답하기</a</li>
-            </ul>
+            <input type="search" placeholder="검색내용">
+            <button >검색</button>
+            <div class="link">
+            <a href="index.html">전체상품/ </a>
+            <a href="index.html">팝니다등록/ </a>
+            <a href="index.html">삽니다등록/ </a>
+            <a href="index.html">삽니다리스트/ </a>
+            <a href="index.html">우리동네소개/ </a>
+            <a href="index.html">묻고답하기/ </a>
+            </div>
+    </div> <!-- div속 div 포지션 없이 float 이용 -->
+
+    <div class="all">
+        <div class="leftsidebar" style="float: left;">
+            <input type="text" placeholder="아이디 입력">
+            <input type="password" placeholder="PassWord"><br>
+
+    <button style="border-radius: 10;">로그인</button>
+    <button style="border-radius: 10;">회원가입</button>
+
+        <p class="category">거래 카테고리 CateGory
+
+        <a href="index.html">판매 카테고리1</a>
+        <a href="index.html">판매 카테고리2</a>
+        <a href="index.html">판매 카테고리3</a>
+        <a href="index.html">판매 카테고리4</a>
+        <a href="index.html">판매 카테고리5</a>
+        <a href="index.html">판매 카테고리6</a>
+        <a href="index.html">판매 카테고리7</a>
+        <a href="index.html">판매 카테고리8</a>
+
+        <a href="index.html"><img src="https://cphoto.asiae.co.kr/listimglink/6/2020041411122776000_1586830347.jpg"width="auto" height="50px">사이트가기1</a>
+        <a href="index.html"><img src="https://cphoto.asiae.co.kr/listimglink/6/2020041411122776000_1586830347.jpg"width="auto" height="50px">사이트가기2</a>
+        
+        <a href="index.html">관련법률</a>
+        <a href="index.html">관련사이트</a>
+        <a href="index.html">협력업체</a>
+        <a href="index.html">업체소개</a> 
+        
+        <img class="logo" src="http://www.guidecrops.com/images/farm_banner.gif" width="auto" height="100px">
+    </p>
+        </div> <!-- 왼쪽 사이드바 div에서 float 이용한 예시-->
+        <div class="centerinfo" style="float: left;">
+            <div class="leftdiv">
+                <p>
+                    불법거래 및 사기 금지
+                    위반시 연락바람
+                </p>
+            </div>
+            <div class="rightdiv">
+                <p>
+                    공정거래 법률
+                    깨끗한 거래를 한 사람
+                </p>
+            </div> <!-- div 나누고 사이즈 맞추기 -->
+        </div>
+        </div>
     </div>
-    
+        <!-- div 속 3개 배열-->
+
 </body>
 </html>
 <!-- http://www.guidecrops.com/index.htm  -->
