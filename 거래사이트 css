@@ -144,7 +144,8 @@
     outline: 3px dotted blue;
 }
 
-.search{ 
+
+/* .search{ 
    width: 100%;
    height: 20px;
    white-space: nowrap;
@@ -157,7 +158,8 @@
     float: right;
     margin: 0px 10px 0px 10px;
     background-color: #fff;
-}
+} */
+
 
 .leftsidebar{
     display: inline-block;
@@ -180,6 +182,7 @@
     margin-left: -5px;
     white-space: pre-line;
 } /* https://mini-sugar.tistory.com/47  */
+
 .leftdiv{
     float: left;
     outline: 3px dotted steelblue;
@@ -202,3 +205,29 @@
   
 
 }
+
+/* https://studiomeal.com/archives/533 grid 설명 */
+
+.search{ 
+    display: grid;
+
+    grid-template-columns: 300px auto;
+
+    grid-auto-flow: column;
+
+    place-items: stretch stretch;
+    place-content: space-between;
+
+    grid-column-gap: 5px;
+
+    
+    outline: 3px dotted red;
+ }
+
+ .all{
+     display: grid;
+
+     grid-template-columns: 0.5fr 1fr 0.5fr;
+     outline: red;
+
+ }
