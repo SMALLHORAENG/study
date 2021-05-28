@@ -118,12 +118,14 @@
 .header{
     top: 0;
     left: 0;
+    outline: 3px dotted red;
 }
 
 .topmenu{
     position: relative;
     text-align: right;
     top: -15px;
+    outline: 3px dotted orange;
 }
 
 .info{
@@ -131,24 +133,72 @@
     text-align: right;
     width: 100%;
     position: relative;
-    bottom:10px
+    bottom:10px;
+    outline: 3px dotted yellow;
 }
 .infomenu{
     position: absolute;
     top: 0;
     right: 10px;
-    line-height: 40px;
+    line-height: 20px;
+    outline: 3px dotted blue;
 }
 
-.ib{
+.search{ 
+   width: 100%;
+   height: 20px;
+   white-space: nowrap;
+   outline: 3px dotted red;
+   float: left;
+}
+
+.link{
+    width: auto;
+    float: right;
+    margin: 0px 10px 0px 10px;
+    background-color: #fff;
+}
+
+.leftsidebar{
     display: inline-block;
+    outline: 2px dotted pink;
+    width: 20%;
+    height: auto;
+    max-height: max-content;
+    margin: 5px 10px 5px 0px;
+    padding-left: 28px;
+    text-align: left;
+}
+.category{
+    white-space:pre-line;
 }
 
-.li{
-    display: flex;
-}
-.search{
+.centerinfo{
+    outline: 3px dotted purple;
+    width: calc(100% - 50%);
+    height: 100%;
+    margin-left: -5px;
+    white-space: pre-line;
+} /* https://mini-sugar.tistory.com/47  */
+.leftdiv{
+    float: left;
+    outline: 3px dotted steelblue;
+    width:49%;
+    height:100%;
+    box-sizing: border-box;
+    padding:0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    
 
 }
+.rightdiv{
+    float: right;
+    outline: 3px dotted red;
+    width:49%;
+    height:100%;
+    box-sizing: border-box;
+    padding:0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  
 
-
+}
