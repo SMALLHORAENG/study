@@ -123,22 +123,22 @@
         <li><a href="index.html">[공지] 거래 4</a></li>
         <li><a href="index.html">[공지] 거래 5</a></li>
     </ul>
-    </div> <!--포지션을 이용한 배치-->
+    </div> <!--포지션을 이용한 배치 -->
+
 
     <div class="search" >
             <img src="https://imyeonn.github.io/assets/images/post/001/30_00title.png" width="20px" height="20px">
             <input type="search" placeholder="검색내용">
             <button >검색</button>
-            <div class="link">
             <a href="index.html">전체상품/ </a>
             <a href="index.html">팝니다등록/ </a>
             <a href="index.html">삽니다등록/ </a>
             <a href="index.html">삽니다리스트/ </a>
             <a href="index.html">우리동네소개/ </a>
             <a href="index.html">묻고답하기/ </a>
-            </div>
-    </div> <!-- div속 div 포지션 없이 float 이용 -->
+    </div> <!-- div속 div 포지션 없이 float 이용 -> grid 적용 -->
 
+    
     <div class="all">
         <div class="leftsidebar" style="float: left;">
             <input type="text" placeholder="아이디 입력">
@@ -190,6 +190,3 @@
 </body>
 </html>
 <!-- http://www.guidecrops.com/index.htm  -->
-
-
-
