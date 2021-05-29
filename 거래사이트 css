@@ -115,7 +115,7 @@
 
 
 
-.header{
+/* .header{
     top: 0;
     left: 0;
     outline: 3px dotted red;
@@ -128,22 +128,23 @@
     outline: 3px dotted orange;
 }
 
-.info{
-    margin: 0 0;
-    text-align: right;
-    width: 100%;
+.nav-img{
     position: relative;
-    bottom:10px;
-    outline: 3px dotted yellow;
-}
-.infomenu{
-    position: absolute;
-    top: 0;
-    right: 10px;
-    line-height: 20px;
-    outline: 3px dotted blue;
 }
 
+.toplist{   
+    list-style: none;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    line-height: 200%;
+    background-color: none;
+    transition: background-color .5s;
+}
+a:hover{
+    color: orange;
+    background-color: gold;
+} */
 
 /* .search{ 
    width: 100%;
@@ -160,74 +161,4 @@
     background-color: #fff;
 } */
 
-
-.leftsidebar{
-    display: inline-block;
-    outline: 2px dotted pink;
-    width: 20%;
-    height: auto;
-    max-height: max-content;
-    margin: 5px 10px 5px 0px;
-    padding-left: 28px;
-    text-align: left;
-}
-.category{
-    white-space:pre-line;
-}
-
-.centerinfo{
-    outline: 3px dotted purple;
-    width: calc(100% - 50%);
-    height: 100%;
-    margin-left: -5px;
-    white-space: pre-line;
-} /* https://mini-sugar.tistory.com/47  */
-
-.leftdiv{
-    float: left;
-    outline: 3px dotted steelblue;
-    width:49%;
-    height:100%;
-    box-sizing: border-box;
-    padding:0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
-    
-
-}
-.rightdiv{
-    float: right;
-    outline: 3px dotted red;
-    width:49%;
-    height:100%;
-    box-sizing: border-box;
-    padding:0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
-  
-
-}
-
 /* https://studiomeal.com/archives/533 grid 설명 */
-
-.search{ 
-    display: grid;
-
-    grid-template-columns: 300px auto;
-
-    grid-auto-flow: column;
-
-    place-items: stretch stretch;
-    place-content: space-between;
-
-    grid-column-gap: 5px;
-
-    
-    outline: 3px dotted red;
- }
-
- .all{
-     display: grid;
-
-     grid-template-columns: 0.5fr 1fr 0.5fr;
-     outline: red;
-
- }
