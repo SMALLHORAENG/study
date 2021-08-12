@@ -1,1 +1,23 @@
 
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" type="text/css" href="tradestyle.css">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+    <div class="content">
+        <div class="logo">logo</div>
+        <div class="headerbar">header</div>
+        <div class="topmenu">topmenu</div>
+        <div class="leftsidebar">leftsidebar</div>
+        <div class="centermenu">centermenu</div>
+        <div class="rightsidebar">rightsidebar</div>
+        <div class="bottominfo">bottominfo</div>
+    </div>
+
+
+</body>
+</html>
