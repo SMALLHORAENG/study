@@ -4,12 +4,25 @@
     grid-gap: 10px;
     grid-template-columns: repeat(11,1fr);
     grid-template-rows: repeat(10,minmax(100px,auto));
-    background-color: orange;
+    background-color: rgb(34, 85, 68);
     height: 100%;
+
+    /* grid-template-areas:  */
+   
+
 }
 
+/* .content .headerbar{grid-area: header;}
+.content .topinfo{grid-area: topinfo;}
+.content .leftsidebar{grid-area: leftside;}
+.content .centermenu{grid-area: center;}
+.content .rightsidebar{grid-area: rightside;}
+.content .bottominfo{grid-area: bottominfo;} */
+
+
+
 .logo{
-    background-color: purple;
+    /* background-color: gray; */
     grid-column: 1/1;
     grid-row: 1;
 }
@@ -20,30 +33,42 @@
     grid-row: 1;
 }
 
-.topmenu{
-    background-color: blue;
+
+.topinfo{
+    background-color:  gray;
     grid-column: 3/10;
     grid-row: 2;   
 }
 .leftsidebar{
-    background-color: green;
+    background-color:  gray;
     grid-column: 1/3;
     grid-row: 2/10;
+    white-space: pre-line;
 }
 .centermenu{
-    background-color: red;
+    background-color:  gray;
     grid-column: 3/10;
     grid-row: 3/10;
 }
 
 .rightsidebar{
-    background-color: brown;
+    background-color:  gray;
     grid-column: 10/12;
     grid-row: 2/10;    
 }
 
 .bottominfo{
-    background-color: gold;
-    grid-column: 1/11;
+    background-color:  gray;
+    grid-column: 1/12;
     grid-row: 10/11;    
 }
+
+
+.blinking{
+    -webkit-animation:blink 1.5s ease-in-out infinite alternate; -moz-animation:blink 1.5s ease-in-out infinite alternate; animation:blink 1.5s ease-in-out infinite alternate; 
+}
+
+@-webkit-keyframes blink{ 0% {opacity:0;} 100% {opacity:1;} } 
+@-moz-keyframes blink{ 0% {opacity:0;} 100% {opacity:1;} } 
+@keyframes blink{ 0% {opacity:0;} 100% {opacity:1;} }
+
