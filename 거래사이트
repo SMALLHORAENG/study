@@ -2,20 +2,53 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <link rel="stylesheet" type="text/css" href="tradestyle.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <title></title>
 </head>
 <body>
 
     <div class="content">
-        <div class="logo">logo</div>
-        <div class="headerbar">header</div>
-        <div class="topmenu">topmenu</div>
-        <div class="leftsidebar">leftsidebar</div>
-        <div class="centermenu">centermenu</div>
-        <div class="rightsidebar">rightsidebar</div>
-        <div class="bottominfo">bottominfo</div>
+        <div class="logo">
+            <img class="image blinking" 
+        src="https://upload.wikimedia.org/wikipedia/commons/a/ae/DaangnMarket_logo.png" width="100px" height="auto">
+        </div>
+
+        <div class="headerbar">header
+            <h1>
+            <a class="tophome" href="index.html">HOME</a>
+            <a class="topmenu" href="index.html">MENU</a>
+            <a class="service" href="index.html">지원센터</a>
+            </h1>
+        </div>
+
+        <div class="topinfo">
+            <a><img src="https://dnvefa72aowie.cloudfront.net/origin/article/201712/05b094ef7a7a6050ec045a8d1e97c3b3a5fffccf060b632776977f8c1e520a51.jpg?q=95&s=1440x1440&t=inside" width="100px" height="auto">상단광고</a>
+        </div>
+
+        <div class="leftsidebar">
+            <h2>
+                <a href="index.html">Category</a>
+                <a href="index.html">근처직거래</a>
+                <a href="index.html">먼거리거래</a>
+                <a href="index.html">사기신고</a>
+                <a href="index.html">시세</a>
+            </h2>
+        </div>
+
+        <div class="centermenu">
+            <a>최근 거래물건(이미지 첨부)</a>
+        </div>
+ 
+        <div class="rightsidebar">
+            <a>flex 이용하여 최근 본 목록</a>
+        </div>
+
+        <div class="bottominfo">
+            <p>
+                copyright
+            </p>
+        </div>
     </div>
 
 
